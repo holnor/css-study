@@ -1,0 +1,4 @@
+It's always us, who ruin the responsiveness:
+    - Don't use height
+    - Use percentage, rem, em
+    - if we set width, we should also set max/min width
