@@ -2,3 +2,12 @@ It's always us, who ruin the responsiveness:
     - Don't use height
     - Use percentage, rem, em
     - if we set width, we should also set max/min width
+
+    -use rem for margins, because it is consistent (root base 16px)
+    -use em for padding, because its base will be the font-size defined for that
+        class. Thath means a button for example will be consistently rescaled just by
+        givin it a new font-size
+    -em uses parents properties, and it is cumulative! All separate em settings summed up as we
+        dive deeper from one parent to a child
+    -avoid using em for setting font size
+    -in some casese it might be a good idea to set font size in vmax/vmin or vh/vw
